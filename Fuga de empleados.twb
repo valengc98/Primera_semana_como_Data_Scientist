@@ -1,0 +1,2254 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20241.24.0618.0924                               -->
+<workbook original-version='18.1' source-build='2024.1.4 (20241.24.0618.0924)' source-platform='win' version='18.1' xml:base='https://public.tableau.com' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelExtractV2.true...ObjectModelExtractV2 />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <repository-location id='Fugadeempleados_17224477525340' path='/workbooks' revision='1.0' />
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='Sheet1 (abandono_con_scoring)' inline='true' name='federated.1ycok7j0rnlub013vztg60kv3a4j' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='abandono_con_scoring' name='excel-direct.1dlkyic05c4xth10coajx0e6whkl'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/pc/Downloads/Proyecto de Data Science/Resultado Final/abandono_con_scoring.xlsx' interpretationMode='0' password='' server='' validate='no' workgroup-auth-mode='as-is' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.1dlkyic05c4xth10coajx0e6whkl' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:AC1471:no:A1:AC1471:0' header='yes' outcome='6'>
+            <column datatype='integer' name='id' ordinal='0' />
+            <column datatype='integer' name='edad' ordinal='1' />
+            <column datatype='integer' name='abandono' ordinal='2' />
+            <column datatype='string' name='viajes' ordinal='3' />
+            <column datatype='string' name='departamento' ordinal='4' />
+            <column datatype='integer' name='distancia_casa' ordinal='5' />
+            <column datatype='string' name='educacion' ordinal='6' />
+            <column datatype='string' name='carrera' ordinal='7' />
+            <column datatype='string' name='satisfaccion_entorno' ordinal='8' />
+            <column datatype='string' name='implicacion' ordinal='9' />
+            <column datatype='integer' name='nivel_laboral' ordinal='10' />
+            <column datatype='string' name='puesto' ordinal='11' />
+            <column datatype='string' name='satisfaccion_trabajo' ordinal='12' />
+            <column datatype='string' name='estado_civil' ordinal='13' />
+            <column datatype='integer' name='salario_mes' ordinal='14' />
+            <column datatype='integer' name='num_empresas_anteriores' ordinal='15' />
+            <column datatype='string' name='horas_extra' ordinal='16' />
+            <column datatype='integer' name='incremento_salario_porc' ordinal='17' />
+            <column datatype='string' name='evaluacion' ordinal='18' />
+            <column datatype='string' name='satisfaccion_companeros' ordinal='19' />
+            <column datatype='integer' name='nivel_acciones' ordinal='20' />
+            <column datatype='integer' name='anos_experiencia' ordinal='21' />
+            <column datatype='integer' name='num_formaciones_ult_ano' ordinal='22' />
+            <column datatype='integer' name='anos_compania' ordinal='23' />
+            <column datatype='integer' name='anos_desde_ult_promocion' ordinal='24' />
+            <column datatype='integer' name='anos_con_manager_actual' ordinal='25' />
+            <column datatype='integer' name='salario_ano' ordinal='26' />
+            <column datatype='real' name='impacto_abandono' ordinal='27' />
+            <column datatype='real' name='scoring_abandono' ordinal='28' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.1dlkyic05c4xth10coajx0e6whkl' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:AC1471:no:A1:AC1471:0' header='yes' outcome='6'>
+            <column datatype='integer' name='id' ordinal='0' />
+            <column datatype='integer' name='edad' ordinal='1' />
+            <column datatype='integer' name='abandono' ordinal='2' />
+            <column datatype='string' name='viajes' ordinal='3' />
+            <column datatype='string' name='departamento' ordinal='4' />
+            <column datatype='integer' name='distancia_casa' ordinal='5' />
+            <column datatype='string' name='educacion' ordinal='6' />
+            <column datatype='string' name='carrera' ordinal='7' />
+            <column datatype='string' name='satisfaccion_entorno' ordinal='8' />
+            <column datatype='string' name='implicacion' ordinal='9' />
+            <column datatype='integer' name='nivel_laboral' ordinal='10' />
+            <column datatype='string' name='puesto' ordinal='11' />
+            <column datatype='string' name='satisfaccion_trabajo' ordinal='12' />
+            <column datatype='string' name='estado_civil' ordinal='13' />
+            <column datatype='integer' name='salario_mes' ordinal='14' />
+            <column datatype='integer' name='num_empresas_anteriores' ordinal='15' />
+            <column datatype='string' name='horas_extra' ordinal='16' />
+            <column datatype='integer' name='incremento_salario_porc' ordinal='17' />
+            <column datatype='string' name='evaluacion' ordinal='18' />
+            <column datatype='string' name='satisfaccion_companeros' ordinal='19' />
+            <column datatype='integer' name='nivel_acciones' ordinal='20' />
+            <column datatype='integer' name='anos_experiencia' ordinal='21' />
+            <column datatype='integer' name='num_formaciones_ult_ano' ordinal='22' />
+            <column datatype='integer' name='anos_compania' ordinal='23' />
+            <column datatype='integer' name='anos_desde_ult_promocion' ordinal='24' />
+            <column datatype='integer' name='anos_con_manager_actual' ordinal='25' />
+            <column datatype='integer' name='salario_ano' ordinal='26' />
+            <column datatype='real' name='impacto_abandono' ordinal='27' />
+            <column datatype='real' name='scoring_abandono' ordinal='28' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:AC1471:no:A1:AC1471:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>id</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[id]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>id</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_789CC1DEF9BA44FFA3D61C9EC2560C49]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>edad</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[edad]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>edad</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_789CC1DEF9BA44FFA3D61C9EC2560C49]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>abandono</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[abandono]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>abandono</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_789CC1DEF9BA44FFA3D61C9EC2560C49]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>viajes</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[viajes]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>viajes</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RCL_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_789CC1DEF9BA44FFA3D61C9EC2560C49]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>departamento</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[departamento]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>departamento</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RCL_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_789CC1DEF9BA44FFA3D61C9EC2560C49]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>distancia_casa</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[distancia_casa]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>distancia_casa</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_789CC1DEF9BA44FFA3D61C9EC2560C49]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>educacion</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[educacion]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>educacion</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RCL_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_789CC1DEF9BA44FFA3D61C9EC2560C49]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>carrera</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[carrera]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>carrera</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RCL_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_789CC1DEF9BA44FFA3D61C9EC2560C49]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>satisfaccion_entorno</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[satisfaccion_entorno]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>satisfaccion_entorno</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RCL_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_789CC1DEF9BA44FFA3D61C9EC2560C49]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>implicacion</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[implicacion]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>implicacion</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RCL_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_789CC1DEF9BA44FFA3D61C9EC2560C49]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>nivel_laboral</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[nivel_laboral]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>nivel_laboral</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_789CC1DEF9BA44FFA3D61C9EC2560C49]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>puesto</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[puesto]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>puesto</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RCL_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_789CC1DEF9BA44FFA3D61C9EC2560C49]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>satisfaccion_trabajo</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[satisfaccion_trabajo]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>satisfaccion_trabajo</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RCL_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_789CC1DEF9BA44FFA3D61C9EC2560C49]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>estado_civil</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[estado_civil]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>estado_civil</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RCL_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_789CC1DEF9BA44FFA3D61C9EC2560C49]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>salario_mes</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[salario_mes]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>salario_mes</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_789CC1DEF9BA44FFA3D61C9EC2560C49]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>num_empresas_anteriores</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[num_empresas_anteriores]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>num_empresas_anteriores</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_789CC1DEF9BA44FFA3D61C9EC2560C49]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>horas_extra</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[horas_extra]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>horas_extra</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RCL_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_789CC1DEF9BA44FFA3D61C9EC2560C49]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>incremento_salario_porc</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[incremento_salario_porc]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>incremento_salario_porc</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_789CC1DEF9BA44FFA3D61C9EC2560C49]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>evaluacion</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[evaluacion]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>evaluacion</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RCL_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_789CC1DEF9BA44FFA3D61C9EC2560C49]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>satisfaccion_companeros</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[satisfaccion_companeros]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>satisfaccion_companeros</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RCL_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_789CC1DEF9BA44FFA3D61C9EC2560C49]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>nivel_acciones</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[nivel_acciones]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>nivel_acciones</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_789CC1DEF9BA44FFA3D61C9EC2560C49]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>anos_experiencia</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[anos_experiencia]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>anos_experiencia</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_789CC1DEF9BA44FFA3D61C9EC2560C49]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>num_formaciones_ult_ano</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[num_formaciones_ult_ano]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>num_formaciones_ult_ano</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_789CC1DEF9BA44FFA3D61C9EC2560C49]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>anos_compania</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[anos_compania]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>anos_compania</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_789CC1DEF9BA44FFA3D61C9EC2560C49]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>anos_desde_ult_promocion</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[anos_desde_ult_promocion]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>anos_desde_ult_promocion</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_789CC1DEF9BA44FFA3D61C9EC2560C49]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>anos_con_manager_actual</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[anos_con_manager_actual]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>anos_con_manager_actual</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_789CC1DEF9BA44FFA3D61C9EC2560C49]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>salario_ano</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[salario_ano]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>salario_ano</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_789CC1DEF9BA44FFA3D61C9EC2560C49]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>impacto_abandono</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[impacto_abandono]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>impacto_abandono</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_789CC1DEF9BA44FFA3D61C9EC2560C49]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>scoring_abandono</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[scoring_abandono]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>scoring_abandono</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_789CC1DEF9BA44FFA3D61C9EC2560C49]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='KPI Tasa de Abandono' datatype='real' name='[Calculation_241224100552085504]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='SUM([abandono])/COUNT([__tableau_internal_object_id__].[Sheet1_789CC1DEF9BA44FFA3D61C9EC2560C49])' />
+      </column>
+      <column caption='En riesgo' datatype='integer' name='[Calculation_241224100552830977]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='IF [scoring_abandono] &gt;= 0.5 THEN 1 ELSE 0&#13;&#10;END' />
+      </column>
+      <_.fcp.ObjectModelTableType.true...column caption='Sheet1' datatype='table' name='[__tableau_internal_object_id__].[Sheet1_789CC1DEF9BA44FFA3D61C9EC2560C49]' role='measure' type='quantitative' />
+      <column caption='Abandono' datatype='integer' name='[abandono]' role='measure' type='quantitative' />
+      <column caption='Anos Compania' datatype='integer' name='[anos_compania]' role='measure' type='quantitative' />
+      <column caption='Anos Con Manager Actual' datatype='integer' name='[anos_con_manager_actual]' role='measure' type='quantitative' />
+      <column caption='Anos Desde Ult Promocion' datatype='integer' name='[anos_desde_ult_promocion]' role='measure' type='quantitative' />
+      <column caption='Anos Experiencia' datatype='integer' name='[anos_experiencia]' role='measure' type='quantitative' />
+      <column caption='Carrera' datatype='string' name='[carrera]' role='dimension' type='nominal' />
+      <column caption='Departamento' datatype='string' name='[departamento]' role='dimension' type='nominal' />
+      <column caption='Distancia Casa' datatype='integer' name='[distancia_casa]' role='measure' type='quantitative' />
+      <column caption='Edad' datatype='integer' name='[edad]' role='measure' type='quantitative' />
+      <column caption='Educacion' datatype='string' name='[educacion]' role='dimension' type='nominal' />
+      <column caption='Estado Civil' datatype='string' name='[estado_civil]' role='dimension' type='nominal' />
+      <column caption='Evaluacion' datatype='string' name='[evaluacion]' role='dimension' type='nominal' />
+      <column caption='Horas Extra' datatype='string' name='[horas_extra]' role='dimension' type='nominal' />
+      <column caption='Id' datatype='integer' name='[id]' role='dimension' type='ordinal' />
+      <column caption='Impacto Abandono' datatype='real' name='[impacto_abandono]' role='measure' type='quantitative' />
+      <column caption='Implicacion' datatype='string' name='[implicacion]' role='dimension' type='nominal' />
+      <column caption='Incremento Salario Porc' datatype='integer' name='[incremento_salario_porc]' role='measure' type='quantitative' />
+      <column caption='Nivel Acciones' datatype='integer' name='[nivel_acciones]' role='measure' type='quantitative' />
+      <column caption='Nivel Laboral' datatype='integer' name='[nivel_laboral]' role='measure' type='quantitative' />
+      <column caption='Num Empresas Anteriores' datatype='integer' name='[num_empresas_anteriores]' role='measure' type='quantitative' />
+      <column caption='Num Formaciones Ult Ano' datatype='integer' name='[num_formaciones_ult_ano]' role='dimension' type='quantitative' />
+      <column caption='Puesto' datatype='string' name='[puesto]' role='dimension' type='nominal' />
+      <column caption='Salario Ano' datatype='integer' name='[salario_ano]' role='dimension' type='quantitative' />
+      <column caption='Salario Mes' datatype='integer' name='[salario_mes]' role='dimension' type='quantitative' />
+      <column caption='Satisfaccion Companeros' datatype='string' name='[satisfaccion_companeros]' role='dimension' type='nominal' />
+      <column caption='Satisfaccion Entorno' datatype='string' name='[satisfaccion_entorno]' role='dimension' type='nominal' />
+      <column caption='Satisfaccion Trabajo' datatype='string' name='[satisfaccion_trabajo]' role='dimension' type='nominal' />
+      <column caption='Scoring Abandono' datatype='real' name='[scoring_abandono]' role='measure' type='quantitative' />
+      <column caption='Viajes' datatype='string' name='[viajes]' role='dimension' type='nominal' />
+      <column-instance column='[puesto]' derivation='None' name='[none:puesto:nk]' pivot='key' type='nominal' />
+      <extract _.fcp.ObjectModelExtractV2.true...object-id='' _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' units='records'>
+        <connection access_mode='readonly' author-locale='es_ES' class='hyper' dbname='C:/Users/pc/AppData/Local/Temp/TableauTemp/#TableauTemp_0reyzv41ptl1kt1bx0r0o1xj9knd.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='07/31/2024 12:51:57 AM' username='tableau_internal_user'>
+          <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <_.fcp.ObjectModelEncapsulateLegacy.true...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>id</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[id]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>id</remote-alias>
+              <ordinal>0</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1470</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_789CC1DEF9BA44FFA3D61C9EC2560C49]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>edad</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[edad]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>edad</remote-alias>
+              <ordinal>1</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>43</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_789CC1DEF9BA44FFA3D61C9EC2560C49]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>abandono</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[abandono]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>abandono</remote-alias>
+              <ordinal>2</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_789CC1DEF9BA44FFA3D61C9EC2560C49]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>viajes</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[viajes]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>viajes</remote-alias>
+              <ordinal>3</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LES_RCL_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_789CC1DEF9BA44FFA3D61C9EC2560C49]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>departamento</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[departamento]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>departamento</remote-alias>
+              <ordinal>4</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LES_RCL_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_789CC1DEF9BA44FFA3D61C9EC2560C49]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>distancia_casa</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[distancia_casa]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>distancia_casa</remote-alias>
+              <ordinal>5</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>29</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_789CC1DEF9BA44FFA3D61C9EC2560C49]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>educacion</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[educacion]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>educacion</remote-alias>
+              <ordinal>6</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LES_RCL_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_789CC1DEF9BA44FFA3D61C9EC2560C49]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>carrera</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[carrera]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>carrera</remote-alias>
+              <ordinal>7</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LES_RCL_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_789CC1DEF9BA44FFA3D61C9EC2560C49]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>satisfaccion_entorno</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[satisfaccion_entorno]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>satisfaccion_entorno</remote-alias>
+              <ordinal>8</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LES_RCL_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_789CC1DEF9BA44FFA3D61C9EC2560C49]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>implicacion</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[implicacion]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>implicacion</remote-alias>
+              <ordinal>9</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LES_RCL_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_789CC1DEF9BA44FFA3D61C9EC2560C49]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>nivel_laboral</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[nivel_laboral]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>nivel_laboral</remote-alias>
+              <ordinal>10</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_789CC1DEF9BA44FFA3D61C9EC2560C49]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>puesto</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[puesto]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>puesto</remote-alias>
+              <ordinal>11</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>9</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LES_RCL_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_789CC1DEF9BA44FFA3D61C9EC2560C49]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>satisfaccion_trabajo</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[satisfaccion_trabajo]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>satisfaccion_trabajo</remote-alias>
+              <ordinal>12</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LES_RCL_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_789CC1DEF9BA44FFA3D61C9EC2560C49]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>estado_civil</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[estado_civil]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>estado_civil</remote-alias>
+              <ordinal>13</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LES_RCL_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_789CC1DEF9BA44FFA3D61C9EC2560C49]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>salario_mes</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[salario_mes]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>salario_mes</remote-alias>
+              <ordinal>14</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1179</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_789CC1DEF9BA44FFA3D61C9EC2560C49]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>num_empresas_anteriores</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[num_empresas_anteriores]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>num_empresas_anteriores</remote-alias>
+              <ordinal>15</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>10</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_789CC1DEF9BA44FFA3D61C9EC2560C49]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>horas_extra</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[horas_extra]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>horas_extra</remote-alias>
+              <ordinal>16</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LES_RCL_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_789CC1DEF9BA44FFA3D61C9EC2560C49]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>incremento_salario_porc</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[incremento_salario_porc]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>incremento_salario_porc</remote-alias>
+              <ordinal>17</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>15</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_789CC1DEF9BA44FFA3D61C9EC2560C49]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>evaluacion</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[evaluacion]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>evaluacion</remote-alias>
+              <ordinal>18</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LES_RCL_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_789CC1DEF9BA44FFA3D61C9EC2560C49]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>satisfaccion_companeros</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[satisfaccion_companeros]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>satisfaccion_companeros</remote-alias>
+              <ordinal>19</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LES_RCL_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_789CC1DEF9BA44FFA3D61C9EC2560C49]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>nivel_acciones</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[nivel_acciones]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>nivel_acciones</remote-alias>
+              <ordinal>20</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_789CC1DEF9BA44FFA3D61C9EC2560C49]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>anos_experiencia</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[anos_experiencia]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>anos_experiencia</remote-alias>
+              <ordinal>21</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>40</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_789CC1DEF9BA44FFA3D61C9EC2560C49]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>num_formaciones_ult_ano</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[num_formaciones_ult_ano]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>num_formaciones_ult_ano</remote-alias>
+              <ordinal>22</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_789CC1DEF9BA44FFA3D61C9EC2560C49]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>anos_compania</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[anos_compania]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>anos_compania</remote-alias>
+              <ordinal>23</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>35</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_789CC1DEF9BA44FFA3D61C9EC2560C49]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>anos_desde_ult_promocion</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[anos_desde_ult_promocion]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>anos_desde_ult_promocion</remote-alias>
+              <ordinal>24</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>16</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_789CC1DEF9BA44FFA3D61C9EC2560C49]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>anos_con_manager_actual</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[anos_con_manager_actual]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>anos_con_manager_actual</remote-alias>
+              <ordinal>25</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>18</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_789CC1DEF9BA44FFA3D61C9EC2560C49]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>salario_ano</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[salario_ano]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>salario_ano</remote-alias>
+              <ordinal>26</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1179</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_789CC1DEF9BA44FFA3D61C9EC2560C49]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>impacto_abandono</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[impacto_abandono]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>impacto_abandono</remote-alias>
+              <ordinal>27</ordinal>
+              <family>Sheet1</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1179</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_789CC1DEF9BA44FFA3D61C9EC2560C49]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>scoring_abandono</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[scoring_abandono]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>scoring_abandono</remote-alias>
+              <ordinal>28</ordinal>
+              <family>Sheet1</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>11</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_789CC1DEF9BA44FFA3D61C9EC2560C49]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:puesto:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;Healthcare Representative&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Manufacturing Director&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;Manager&quot;</bucket>
+            </map>
+            <map to='#9c755f'>
+              <bucket>&quot;Sales Representative&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Research Scientist&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Laboratory Technician&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;Research Director&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Human Resources&quot;</bucket>
+            </map>
+            <map to='#ff9da7'>
+              <bucket>&quot;Sales Executive&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Chile&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <field-sort-info field-sort-order-type='custom-order'>
+        <field-sort-custom-order field='id' />
+        <field-sort-custom-order field='edad' />
+        <field-sort-custom-order field='abandono' />
+        <field-sort-custom-order field='viajes' />
+        <field-sort-custom-order field='departamento' />
+        <field-sort-custom-order field='distancia_casa' />
+        <field-sort-custom-order field='educacion' />
+        <field-sort-custom-order field='carrera' />
+        <field-sort-custom-order field='satisfaccion_entorno' />
+        <field-sort-custom-order field='implicacion' />
+        <field-sort-custom-order field='nivel_laboral' />
+        <field-sort-custom-order field='puesto' />
+        <field-sort-custom-order field='satisfaccion_trabajo' />
+        <field-sort-custom-order field='estado_civil' />
+        <field-sort-custom-order field='salario_mes' />
+        <field-sort-custom-order field='num_empresas_anteriores' />
+        <field-sort-custom-order field='horas_extra' />
+        <field-sort-custom-order field='incremento_salario_porc' />
+        <field-sort-custom-order field='evaluacion' />
+        <field-sort-custom-order field='satisfaccion_companeros' />
+        <field-sort-custom-order field='nivel_acciones' />
+        <field-sort-custom-order field='anos_experiencia' />
+        <field-sort-custom-order field='num_formaciones_ult_ano' />
+        <field-sort-custom-order field='anos_compania' />
+        <field-sort-custom-order field='anos_desde_ult_promocion' />
+        <field-sort-custom-order field='anos_con_manager_actual' />
+        <field-sort-custom-order field='salario_ano' />
+        <field-sort-custom-order field='impacto_abandono' />
+        <field-sort-custom-order field='scoring_abandono' />
+        <field-sort-custom-order field='Calculation_241224100552830977' />
+        <field-sort-custom-order field='Geometry (generated)' />
+        <field-sort-custom-order field='Latitude (generated)' />
+        <field-sort-custom-order field='Longitude (generated)' />
+        <field-sort-custom-order field=':Measure Names' />
+        <field-sort-custom-order field='Multiple Values' />
+      </field-sort-info>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Sheet1' id='Sheet1_789CC1DEF9BA44FFA3D61C9EC2560C49'>
+            <properties context=''>
+              <relation connection='excel-direct.1dlkyic05c4xth10coajx0e6whkl' name='Sheet1' table='[Sheet1$]' type='table'>
+                <columns gridOrigin='A1:AC1471:no:A1:AC1471:0' header='yes' outcome='6'>
+                  <column datatype='integer' name='id' ordinal='0' />
+                  <column datatype='integer' name='edad' ordinal='1' />
+                  <column datatype='integer' name='abandono' ordinal='2' />
+                  <column datatype='string' name='viajes' ordinal='3' />
+                  <column datatype='string' name='departamento' ordinal='4' />
+                  <column datatype='integer' name='distancia_casa' ordinal='5' />
+                  <column datatype='string' name='educacion' ordinal='6' />
+                  <column datatype='string' name='carrera' ordinal='7' />
+                  <column datatype='string' name='satisfaccion_entorno' ordinal='8' />
+                  <column datatype='string' name='implicacion' ordinal='9' />
+                  <column datatype='integer' name='nivel_laboral' ordinal='10' />
+                  <column datatype='string' name='puesto' ordinal='11' />
+                  <column datatype='string' name='satisfaccion_trabajo' ordinal='12' />
+                  <column datatype='string' name='estado_civil' ordinal='13' />
+                  <column datatype='integer' name='salario_mes' ordinal='14' />
+                  <column datatype='integer' name='num_empresas_anteriores' ordinal='15' />
+                  <column datatype='string' name='horas_extra' ordinal='16' />
+                  <column datatype='integer' name='incremento_salario_porc' ordinal='17' />
+                  <column datatype='string' name='evaluacion' ordinal='18' />
+                  <column datatype='string' name='satisfaccion_companeros' ordinal='19' />
+                  <column datatype='integer' name='nivel_acciones' ordinal='20' />
+                  <column datatype='integer' name='anos_experiencia' ordinal='21' />
+                  <column datatype='integer' name='num_formaciones_ult_ano' ordinal='22' />
+                  <column datatype='integer' name='anos_compania' ordinal='23' />
+                  <column datatype='integer' name='anos_desde_ult_promocion' ordinal='24' />
+                  <column datatype='integer' name='anos_con_manager_actual' ordinal='25' />
+                  <column datatype='integer' name='salario_ano' ordinal='26' />
+                  <column datatype='real' name='impacto_abandono' ordinal='27' />
+                  <column datatype='real' name='scoring_abandono' ordinal='28' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Empleados con mayor riesgo'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1' fontcolor='#000000' fontsize='12'>&lt;</run>
+            <run fontalignment='1' fontcolor='#000000' fontsize='12'>Sheet Name</run>
+            <run fontalignment='1' fontcolor='#000000' fontsize='12'>&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (abandono_con_scoring)' name='federated.1ycok7j0rnlub013vztg60kv3a4j' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1ycok7j0rnlub013vztg60kv3a4j'>
+            <column caption='En riesgo' datatype='integer' name='[Calculation_241224100552830977]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='IF [scoring_abandono] &gt;= 0.5 THEN 1 ELSE 0&#13;&#10;END' />
+            </column>
+            <column caption='Departamento' datatype='string' name='[departamento]' role='dimension' type='nominal' />
+            <column caption='Id' datatype='integer' name='[id]' role='dimension' type='ordinal' />
+            <column caption='Impacto Abandono' datatype='real' name='[impacto_abandono]' role='measure' type='quantitative' />
+            <column-instance column='[Calculation_241224100552830977]' derivation='None' name='[none:Calculation_241224100552830977:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[departamento]' derivation='None' name='[none:departamento:nk]' pivot='key' type='nominal' />
+            <column-instance column='[id]' derivation='None' name='[none:id:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[puesto]' derivation='None' name='[none:puesto:nk]' pivot='key' type='nominal' />
+            <column caption='Puesto' datatype='string' name='[puesto]' role='dimension' type='nominal' />
+            <column caption='Scoring Abandono' datatype='real' name='[scoring_abandono]' role='measure' type='quantitative' />
+            <column-instance column='[impacto_abandono]' derivation='Sum' name='[sum:impacto_abandono:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[scoring_abandono]' derivation='Sum' name='[sum:scoring_abandono:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1ycok7j0rnlub013vztg60kv3a4j].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1ycok7j0rnlub013vztg60kv3a4j].[sum:impacto_abandono:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1ycok7j0rnlub013vztg60kv3a4j].[sum:scoring_abandono:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <filter class='quantitative' column='[federated.1ycok7j0rnlub013vztg60kv3a4j].[none:Calculation_241224100552830977:qk]' included-values='in-range'>
+            <min>1</min>
+            <max>1</max>
+          </filter>
+          <filter class='categorical' column='[federated.1ycok7j0rnlub013vztg60kv3a4j].[none:departamento:nk]' context='true' filter-group='3'>
+            <groupfilter function='level-members' level='[none:departamento:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.1ycok7j0rnlub013vztg60kv3a4j].[none:id:ok]' direction='DESC' measure-to-sort-by='[federated.1ycok7j0rnlub013vztg60kv3a4j].[sum:impacto_abandono:qk]' shelf='rows' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.1ycok7j0rnlub013vztg60kv3a4j].[none:departamento:nk]</column>
+            <column>[federated.1ycok7j0rnlub013vztg60kv3a4j].[:Measure Names]</column>
+            <column>[federated.1ycok7j0rnlub013vztg60kv3a4j].[none:Calculation_241224100552830977:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.1ycok7j0rnlub013vztg60kv3a4j].[Multiple Values]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.1ycok7j0rnlub013vztg60kv3a4j].[none:id:ok] / [federated.1ycok7j0rnlub013vztg60kv3a4j].[none:puesto:nk])</rows>
+        <cols>[federated.1ycok7j0rnlub013vztg60kv3a4j].[:Measure Names]</cols>
+      </table>
+      <simple-id uuid='{7AFF06AF-1C20-4D52-AB76-BB0AC57F8FA5}' />
+    </worksheet>
+    <worksheet name='Euros en Riesgo'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (abandono_con_scoring)' name='federated.1ycok7j0rnlub013vztg60kv3a4j' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1ycok7j0rnlub013vztg60kv3a4j'>
+            <column caption='En riesgo' datatype='integer' name='[Calculation_241224100552830977]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='IF [scoring_abandono] &gt;= 0.5 THEN 1 ELSE 0&#13;&#10;END' />
+            </column>
+            <column caption='Departamento' datatype='string' name='[departamento]' role='dimension' type='nominal' />
+            <column caption='Impacto Abandono' datatype='real' name='[impacto_abandono]' role='measure' type='quantitative' />
+            <column-instance column='[Calculation_241224100552830977]' derivation='None' name='[none:Calculation_241224100552830977:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[departamento]' derivation='None' name='[none:departamento:nk]' pivot='key' type='nominal' />
+            <column caption='Scoring Abandono' datatype='real' name='[scoring_abandono]' role='measure' type='quantitative' />
+            <column-instance column='[impacto_abandono]' derivation='Sum' name='[sum:impacto_abandono:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.1ycok7j0rnlub013vztg60kv3a4j].[none:Calculation_241224100552830977:qk]' included-values='in-range'>
+            <min>1</min>
+            <max>1</max>
+          </filter>
+          <filter class='categorical' column='[federated.1ycok7j0rnlub013vztg60kv3a4j].[none:departamento:nk]' context='true' filter-group='3'>
+            <groupfilter function='level-members' level='[none:departamento:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.1ycok7j0rnlub013vztg60kv3a4j].[none:departamento:nk]</column>
+            <column>[federated.1ycok7j0rnlub013vztg60kv3a4j].[none:Calculation_241224100552830977:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.1ycok7j0rnlub013vztg60kv3a4j].[sum:impacto_abandono:qk]' value='c#,##0&quot; €&quot;' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#f5f5f5' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.1ycok7j0rnlub013vztg60kv3a4j].[sum:impacto_abandono:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run bold='true' fontsize='20'><![CDATA[<[federated.1ycok7j0rnlub013vztg60kv3a4j].[sum:impacto_abandono:qk]>]]></run>
+                <run>&#10;Euros en Riesgo</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='center' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{70E938A2-FAFD-4DBA-A151-866E5D768E19}' />
+    </worksheet>
+    <worksheet name='KPI Empleados en Riesgo'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (abandono_con_scoring)' name='federated.1ycok7j0rnlub013vztg60kv3a4j' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1ycok7j0rnlub013vztg60kv3a4j'>
+            <column caption='En riesgo' datatype='integer' name='[Calculation_241224100552830977]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='IF [scoring_abandono] &gt;= 0.5 THEN 1 ELSE 0&#13;&#10;END' />
+            </column>
+            <column caption='Departamento' datatype='string' name='[departamento]' role='dimension' type='nominal' />
+            <column-instance column='[departamento]' derivation='None' name='[none:departamento:nk]' pivot='key' type='nominal' />
+            <column caption='Scoring Abandono' datatype='real' name='[scoring_abandono]' role='measure' type='quantitative' />
+            <column-instance column='[Calculation_241224100552830977]' derivation='Sum' name='[sum:Calculation_241224100552830977:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1ycok7j0rnlub013vztg60kv3a4j].[none:departamento:nk]' context='true' filter-group='3'>
+            <groupfilter function='level-members' level='[none:departamento:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.1ycok7j0rnlub013vztg60kv3a4j].[none:departamento:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='table'>
+            <format attr='background-color' value='#f5f5f5' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.1ycok7j0rnlub013vztg60kv3a4j].[sum:Calculation_241224100552830977:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run bold='true' fontsize='20'><![CDATA[<[federated.1ycok7j0rnlub013vztg60kv3a4j].[sum:Calculation_241224100552830977:qk]>]]></run>
+                <run>&#10;Empleados en riesgo</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='center' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{19252C01-5EA7-4522-9430-E3FE1F860E9E}' />
+    </worksheet>
+    <worksheet name='KPI Tasa de Fuga'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (abandono_con_scoring)' name='federated.1ycok7j0rnlub013vztg60kv3a4j' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1ycok7j0rnlub013vztg60kv3a4j'>
+            <column caption='KPI Tasa de Abandono' datatype='real' name='[Calculation_241224100552085504]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='SUM([abandono])/COUNT([__tableau_internal_object_id__].[Sheet1_789CC1DEF9BA44FFA3D61C9EC2560C49])' />
+            </column>
+            <_.fcp.ObjectModelTableType.true...column caption='Sheet1' datatype='table' name='[__tableau_internal_object_id__].[Sheet1_789CC1DEF9BA44FFA3D61C9EC2560C49]' role='measure' type='quantitative' />
+            <column caption='Abandono' datatype='integer' name='[abandono]' role='measure' type='quantitative' />
+            <column-instance column='[Calculation_241224100552085504]' derivation='User' name='[usr:Calculation_241224100552085504:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.1ycok7j0rnlub013vztg60kv3a4j].[usr:Calculation_241224100552085504:qk]' value='p0.00%' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#f5f5f5' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.1ycok7j0rnlub013vztg60kv3a4j].[usr:Calculation_241224100552085504:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run bold='true' fontsize='22'><![CDATA[<[federated.1ycok7j0rnlub013vztg60kv3a4j].[usr:Calculation_241224100552085504:qk]>]]></run>
+                <run>&#10;Tasa de fuga total</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='center' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{F9523A86-4BE2-4FDB-8AC7-2E150E3F9C34}' />
+    </worksheet>
+    <worksheet name='KPI Tasa de Fuga por departamento'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (abandono_con_scoring)' name='federated.1ycok7j0rnlub013vztg60kv3a4j' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1ycok7j0rnlub013vztg60kv3a4j'>
+            <column caption='KPI Tasa de Abandono' datatype='real' name='[Calculation_241224100552085504]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='SUM([abandono])/COUNT([__tableau_internal_object_id__].[Sheet1_789CC1DEF9BA44FFA3D61C9EC2560C49])' />
+            </column>
+            <_.fcp.ObjectModelTableType.true...column caption='Sheet1' datatype='table' name='[__tableau_internal_object_id__].[Sheet1_789CC1DEF9BA44FFA3D61C9EC2560C49]' role='measure' type='quantitative' />
+            <column caption='Abandono' datatype='integer' name='[abandono]' role='measure' type='quantitative' />
+            <column caption='Departamento' datatype='string' name='[departamento]' role='dimension' type='nominal' />
+            <column-instance column='[departamento]' derivation='None' name='[none:departamento:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_241224100552085504]' derivation='User' name='[usr:Calculation_241224100552085504:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1ycok7j0rnlub013vztg60kv3a4j].[none:departamento:nk]' context='true' filter-group='3'>
+            <groupfilter function='level-members' level='[none:departamento:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.1ycok7j0rnlub013vztg60kv3a4j].[none:departamento:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.1ycok7j0rnlub013vztg60kv3a4j].[usr:Calculation_241224100552085504:qk]' value='p0.00%' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#f5f5f5' />
+          </style-rule>
+          <style-rule element='quick-filter'>
+            <format attr='title' field='[federated.1ycok7j0rnlub013vztg60kv3a4j].[none:departamento:nk]' value='Departamento'>
+              <formatted-text>
+                <run fontcolor='#ffffff'>Departamento</run>
+              </formatted-text>
+            </format>
+            <format attr='color' value='#000000' />
+          </style-rule>
+          <style-rule element='quick-filter-title'>
+            <format attr='text-align' value='center' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.1ycok7j0rnlub013vztg60kv3a4j].[usr:Calculation_241224100552085504:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run bold='true' fontsize='20'><![CDATA[<[federated.1ycok7j0rnlub013vztg60kv3a4j].[usr:Calculation_241224100552085504:qk]>]]></run>
+                <run>&#10;Tasa de fuga por departamento</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='center' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{5847FE95-5135-4824-8947-4A55FAC77CC7}' />
+    </worksheet>
+    <worksheet name='Riesgo por puesto'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1' fontcolor='#000000' fontsize='12'>&lt;</run>
+            <run fontalignment='1' fontcolor='#000000' fontsize='12'>Sheet Name</run>
+            <run fontalignment='1' fontcolor='#000000' fontsize='12'>&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (abandono_con_scoring)' name='federated.1ycok7j0rnlub013vztg60kv3a4j' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1ycok7j0rnlub013vztg60kv3a4j'>
+            <column caption='Departamento' datatype='string' name='[departamento]' role='dimension' type='nominal' />
+            <column-instance column='[departamento]' derivation='None' name='[none:departamento:nk]' pivot='key' type='nominal' />
+            <column-instance column='[puesto]' derivation='None' name='[none:puesto:nk]' pivot='key' type='nominal' />
+            <column caption='Puesto' datatype='string' name='[puesto]' role='dimension' type='nominal' />
+            <column caption='Scoring Abandono' datatype='real' name='[scoring_abandono]' role='measure' type='quantitative' />
+            <column-instance column='[scoring_abandono]' derivation='Sum' name='[sum:scoring_abandono:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1ycok7j0rnlub013vztg60kv3a4j].[none:departamento:nk]' context='true' filter-group='3'>
+            <groupfilter function='level-members' level='[none:departamento:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.1ycok7j0rnlub013vztg60kv3a4j].[none:departamento:nk]</column>
+          </slices>
+          <aggregation value='false' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.1ycok7j0rnlub013vztg60kv3a4j].[sum:scoring_abandono:qk]' scope='rows' value='Tasa de Abandono' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='font-size' field='[federated.1ycok7j0rnlub013vztg60kv3a4j].[none:puesto:nk]' value='8' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <color column='[federated.1ycok7j0rnlub013vztg60kv3a4j].[none:puesto:nk]' />
+            </encodings>
+            <reference-line axis-column='[federated.1ycok7j0rnlub013vztg60kv3a4j].[sum:scoring_abandono:qk]' boxplot-mark-exclusion='false' boxplot-whisker-type='standard' enable-instant-analytics='true' formula='average' id='refline0' label-type='automatic' probability='95' scope='per-cell' symmetric='false' value-column='[federated.1ycok7j0rnlub013vztg60kv3a4j].[sum:scoring_abandono:qk]' z-order='1' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.25' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1ycok7j0rnlub013vztg60kv3a4j].[sum:scoring_abandono:qk]</rows>
+        <cols>[federated.1ycok7j0rnlub013vztg60kv3a4j].[none:puesto:nk]</cols>
+      </table>
+      <simple-id uuid='{C69CDF3F-45E3-4F38-ABAE-594084A38784}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Fuga de empleados'>
+      <style>
+        <style-rule element='table'>
+          <format attr='background-color' value='#ffffff' />
+        </style-rule>
+      </style>
+      <size sizing-mode='automatic' />
+      <datasources>
+        <datasource caption='Sheet1 (abandono_con_scoring)' name='federated.1ycok7j0rnlub013vztg60kv3a4j' />
+      </datasources>
+      <datasource-dependencies datasource='federated.1ycok7j0rnlub013vztg60kv3a4j'>
+        <column caption='Departamento' datatype='string' name='[departamento]' role='dimension' type='nominal' />
+        <column-instance column='[departamento]' derivation='None' name='[none:departamento:nk]' pivot='key' type='nominal' />
+      </datasource-dependencies>
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='97856' id='19' param='horz' type-v2='layout-flow' w='98990' x='505' y='1072'>
+            <zone h='97856' id='17' type-v2='layout-basic' w='98990' x='505' y='1072'>
+              <zone h='84185' id='9' param='horz' type-v2='layout-flow' w='98990' x='505' y='14743'>
+                <zone h='84185' id='7' type-v2='layout-basic' w='98990' x='505' y='14743'>
+                  <zone h='63858' id='3' name='Riesgo por puesto' w='73048' x='505' y='35070'>
+                    <zone-style>
+                      <format attr='border-color' value='#000000' />
+                      <format attr='border-style' value='none' />
+                      <format attr='border-width' value='0' />
+                      <format attr='margin' value='4' />
+                    </zone-style>
+                  </zone>
+                  <zone h='84185' id='5' name='Empleados con mayor riesgo' w='25942' x='73553' y='14743'>
+                    <zone-style>
+                      <format attr='border-color' value='#000000' />
+                      <format attr='border-style' value='none' />
+                      <format attr='border-width' value='0' />
+                      <format attr='margin' value='4' />
+                    </zone-style>
+                  </zone>
+                  <zone h='20327' id='6' name='KPI Tasa de Fuga' show-title='false' w='16805' x='505' y='14743'>
+                    <zone-style>
+                      <format attr='border-color' value='#000000' />
+                      <format attr='border-style' value='none' />
+                      <format attr='border-width' value='0' />
+                      <format attr='margin' value='4' />
+                    </zone-style>
+                  </zone>
+                  <zone h='20327' id='12' name='KPI Empleados en Riesgo' show-title='false' w='18231' x='34120' y='14743'>
+                    <zone-style>
+                      <format attr='border-color' value='#000000' />
+                      <format attr='border-style' value='none' />
+                      <format attr='border-width' value='0' />
+                      <format attr='margin' value='4' />
+                    </zone-style>
+                  </zone>
+                  <zone h='20327' id='13' name='Euros en Riesgo' show-title='false' w='21202' x='52351' y='14743'>
+                    <zone-style>
+                      <format attr='border-color' value='#000000' />
+                      <format attr='border-style' value='none' />
+                      <format attr='border-width' value='0' />
+                      <format attr='margin' value='4' />
+                    </zone-style>
+                  </zone>
+                  <zone h='20327' id='16' name='KPI Tasa de Fuga por departamento' show-title='false' w='16810' x='17310' y='14743'>
+                    <zone-style>
+                      <format attr='border-color' value='#000000' />
+                      <format attr='border-style' value='none' />
+                      <format attr='border-width' value='0' />
+                      <format attr='margin' value='4' />
+                    </zone-style>
+                  </zone>
+                </zone>
+              </zone>
+              <zone h='13671' id='14' param='horz' type-v2='layout-flow' w='81325' x='505' y='1072'>
+                <zone forceUpdate='true' h='13671' id='15' type-v2='text' w='81325' x='505' y='1072'>
+                  <formatted-text>
+                    <run bold='true' fontalignment='1' fontcolor='#ffffff' fontsize='22'>DASHBOARD FUGA DE EMPLEADOS</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='0' />
+                    <format attr='background-color' value='#9b2121' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone h='13671' id='20' mode='dropdown' name='KPI Tasa de Fuga por departamento' param='[federated.1ycok7j0rnlub013vztg60kv3a4j].[none:departamento:nk]' type-v2='filter' w='17665' x='81830' y='1072'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='0' />
+                  <format attr='background-color' value='#9b2121' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='1400' minheight='1400' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='24' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='97856' id='23' param='vert' type-v2='layout-flow' w='98990' x='505' y='1072'>
+                <zone forceUpdate='true' h='13671' id='15' type-v2='text' w='81325' x='505' y='1072'>
+                  <formatted-text>
+                    <run bold='true' fontalignment='1' fontcolor='#ffffff' fontsize='22'>DASHBOARD FUGA DE EMPLEADOS</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                    <format attr='background-color' value='#9b2121' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='155' h='20327' id='6' is-fixed='true' name='KPI Tasa de Fuga' show-title='false' w='16805' x='505' y='14743'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='13671' id='20' mode='dropdown' name='KPI Tasa de Fuga por departamento' param='[federated.1ycok7j0rnlub013vztg60kv3a4j].[none:departamento:nk]' type-v2='filter' w='17665' x='81830' y='1072'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                    <format attr='background-color' value='#9b2121' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='155' h='20327' id='16' is-fixed='true' name='KPI Tasa de Fuga por departamento' show-title='false' w='16810' x='17310' y='14743'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='155' h='20327' id='12' is-fixed='true' name='KPI Empleados en Riesgo' show-title='false' w='18231' x='34120' y='14743'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='155' h='20327' id='13' is-fixed='true' name='Euros en Riesgo' show-title='false' w='21202' x='52351' y='14743'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='84185' id='5' is-fixed='true' name='Empleados con mayor riesgo' w='25942' x='73553' y='14743'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='63858' id='3' is-fixed='true' name='Riesgo por puesto' w='73048' x='505' y='35070'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{DCC57FBF-CCBD-48E6-8305-39DB1E0166B8}' />
+    </dashboard>
+  </dashboards>
+  <windows saved-dpi-scale-factor='1.5' source-height='44'>
+    <window class='dashboard' maximized='true' name='Fuga de empleados'>
+      <viewpoints>
+        <viewpoint name='Empleados con mayor riesgo'>
+          <zoom type='fit-width' />
+        </viewpoint>
+        <viewpoint name='Euros en Riesgo'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='KPI Empleados en Riesgo'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='KPI Tasa de Fuga'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='KPI Tasa de Fuga por departamento'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Riesgo por puesto'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='3' />
+      <simple-id uuid='{6426597F-7F4E-4C02-A723-F7A990499ECE}' />
+    </window>
+    <window class='worksheet' hidden='true' name='Empleados con mayor riesgo'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1ycok7j0rnlub013vztg60kv3a4j].[none:Calculation_241224100552830977:qk]</field>
+            <field>[federated.1ycok7j0rnlub013vztg60kv3a4j].[none:id:ok]</field>
+            <field>[federated.1ycok7j0rnlub013vztg60kv3a4j].[none:puesto:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{81E35D8D-C647-4BBE-AA76-85C2739C397F}' />
+    </window>
+    <window class='worksheet' hidden='true' name='Euros en Riesgo'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <selection-collection>
+          <tuple-selection>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields />
+                  <y-fields />
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1ycok7j0rnlub013vztg60kv3a4j].[sum:impacto_abandono:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>1871122.4039999996</value>
+              </tuple>
+            </tuple-reference>
+          </tuple-selection>
+        </selection-collection>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1ycok7j0rnlub013vztg60kv3a4j].[none:Calculation_241224100552830977:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{0A6940A2-8347-4B14-A74F-982FC073BECC}' />
+    </window>
+    <window class='worksheet' hidden='true' name='KPI Empleados en Riesgo'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <selection-collection>
+          <tuple-selection>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields />
+                  <y-fields />
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1ycok7j0rnlub013vztg60kv3a4j].[sum:Calculation_241224100552830977:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>162</value>
+              </tuple>
+            </tuple-reference>
+          </tuple-selection>
+        </selection-collection>
+      </viewpoint>
+      <simple-id uuid='{01ED1CCF-2CAA-46C3-A26A-DF8A724CE2BD}' />
+    </window>
+    <window class='worksheet' hidden='true' name='KPI Tasa de Fuga'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.1ycok7j0rnlub013vztg60kv3a4j].[none:departamento:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{C127790E-3043-473F-8B75-8A9CFABCC6E7}' />
+    </window>
+    <window class='worksheet' hidden='true' name='KPI Tasa de Fuga por departamento'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='174'>
+            <card mode='dropdown' param='[federated.1ycok7j0rnlub013vztg60kv3a4j].[none:departamento:nk]' type='filter' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.1ycok7j0rnlub013vztg60kv3a4j].[none:departamento:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{7E25CD1C-D776-4FDA-B55A-7617B8D9BE48}' />
+    </window>
+    <window class='worksheet' hidden='true' name='Riesgo por puesto'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.1ycok7j0rnlub013vztg60kv3a4j].[none:departamento:nk]</field>
+            <field>[federated.1ycok7j0rnlub013vztg60kv3a4j].[none:puesto:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{2D9E6191-CAFF-4213-9A36-5236332AADAF}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Fuga de empleados' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
